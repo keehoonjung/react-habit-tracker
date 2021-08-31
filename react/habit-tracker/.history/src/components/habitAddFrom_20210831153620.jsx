@@ -1,6 +1,6 @@
-import React, { memo } from "react";
+import React from "react";
 
-const HabitAddFrom = memo((props) => {
+const HabitAddFrom = (props) => {
   const inputRef = React.createRef();
   const formRef = React.createRef();
 
@@ -21,6 +21,6 @@ const HabitAddFrom = memo((props) => {
       <button className="add-button">Add</button>
     </form>
   );
-});
+};
 
 export default HabitAddFrom;

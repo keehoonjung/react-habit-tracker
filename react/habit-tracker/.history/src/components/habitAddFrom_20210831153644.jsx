@@ -21,6 +21,6 @@ const HabitAddFrom = memo((props) => {
       <button className="add-button">Add</button>
     </form>
   );
-});
+};)
 
 export default HabitAddFrom;
